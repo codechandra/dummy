@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "prestart": "npm install"
+  },
+  "name": "AgentTrackingLogs",
+  "version": "",
+  "description": "This repo contains the code for lambda function in nodejs",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.45.0",
+    "@aws-sdk/s3-request-presigner": "^3.45.0",
+    "aws-sdk": "^2.1048.0",
+    "exceljs": "^1.15.0",
+    "hummus-recipe": "^2.0.1",
+    "jspdf": "^2.5.0",
+    "moment": "^2.22.2",
+    "nodejs-nodemailer-outlook": "^1.2.4",
+    "nodemailer": "^4.6.3",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "superagent": "^4.0.0",
+    "xlsx": "^0.17.4"
+  }
+}
